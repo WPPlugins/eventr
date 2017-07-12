@@ -1,0 +1,21 @@
+table.eventr-attendees {
+	width:100%;
+	border-collapse:collapse;
+}
+.eventr-attendees tr {
+	margin:10px 0;
+}
+.eventr-attendees tr.alternate {
+	background-color:#eee;
+}
+.eventr-attendees td {
+	vertical-align:top;
+	padding:2px;
+}
+.eventr-attendees td.picture {
+	width:150px;
+}
+.picture img {
+	max-width:150px;
+	max-height:150px;
+}

@@ -1,0 +1,37 @@
+.entry form.event-registration-form {
+	text-align:left;
+}
+
+form.event-registration-form label {
+	width:50px;
+	display:block;
+	float:left;
+	text-align:right;
+	padding-right:5px;
+}
+form.event-registration-form input, form.event-registration-form select, form.event-registration-form textarea {
+	float:left;
+}
+form.event-registration-form textarea {
+	width:250px;
+}
+form.event-registration-form br {
+	clear:both;
+}
+
+form.event-registration-form p.help {
+	margin:0 0 20px 60px;
+	color:#999;
+	font-style:italic;
+}
+
+#profile-search {
+	background-color:#eee;
+	margin:0 0 10px 0;
+	padding:5px;
+	display:none;
+}
+.error-message {
+	font-weight:bold;
+	color:red;
+}
